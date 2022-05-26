@@ -1,17 +1,13 @@
-
-
-body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: #8e9aca;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  gap: 10px
-}
-input[type="text"],
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #8e9aca;
+  }
+  
+  input[type="text"],
   input[type="password"] {
     height: 25px;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -61,4 +57,3 @@ input[type="text"],
     gap: 8px;
     margin: 10px;
   }
-
