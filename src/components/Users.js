@@ -79,6 +79,7 @@ const Users = (props) => {
 	};
 
 	const onDelete = async (user) => {
+		setIsEditing(false);
 		await deleteUser(user);
 		const response = loadUsers();
 		if (response === "ERROR!!!") {
